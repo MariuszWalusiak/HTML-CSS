@@ -1,3 +1,32 @@
 body {
   height: 2000px;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: left;
+  padding: 5px;
+}
+.nav {
+  height: 40px;
+  width: 800px;
+  background-color: rgb(0, 100, 255);
+  display: block;
+  position: fixed;
+  z-index: 2;
+}
+
+.article {
+  width: 400px;
+  margin: 20px;
+  position: relative;
+  top: 100px;
+}
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: grey;
+  position: absolute;
+  right: -120px;
+  bottom: 60px;
 }
