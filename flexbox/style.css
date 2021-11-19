@@ -11,7 +11,7 @@ body {
     flex-wrap: wrap;
     /* flex-direction: column; */
     /* justify-content: center; */
-    align-items: baseline;
+    align-content: space-between;
     
 }
 
@@ -20,13 +20,5 @@ body {
     height: 80px;
     background-color: aquamarine;
     border: 1px solid black;
-    font-size: 20px;
 }
 
-.mid{
-    font-size: 40px;
-}
-
-big{
-    font-size: 80px;
-}
