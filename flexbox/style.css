@@ -1,4 +1,19 @@
 body {
-    padding: 0;
+    padding: 120px;
     margin: 0;
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+    background-color: aquamarine;
+    border: 1px solid black;
 }
