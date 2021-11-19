@@ -30,4 +30,4 @@ zad 5
 zad 6
 
 1. Usuńcie align-content i zostawcie 6 elementów
-2. Zróbcie tak aby bez używania width i height pierwsze co drugi był 2 razy większy od pozostałych
+2. Zróbcie tak aby bez używania width i height co drugi był 2 razy większy od pozostałych

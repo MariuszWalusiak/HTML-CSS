@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+
+body div{
+    box-sizing: border-box;
+}
 .container{
     width: 800px;
     height: 400px;
@@ -11,14 +15,18 @@ body {
     flex-wrap: wrap;
     /* flex-direction: column; */
     /* justify-content: center; */
-    align-content: space-between;
+    align-items: center;
     
 }
 
 .item{
-    width: 80px;
     height: 80px;
     background-color: aquamarine;
     border: 1px solid black;
+    flex :1
+}
+
+.item:nth-child(even){
+    flex:2;
 }
 
